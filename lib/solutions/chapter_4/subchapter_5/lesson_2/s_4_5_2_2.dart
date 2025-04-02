@@ -15,16 +15,14 @@ class MyStatelessWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
+      children: [
         const Text(
           'Hello MigUele',
           style: TextStyle(fontSize: 20),
         ),
         const SizedBox(height: 20),
         ElevatedButton(
-          onPressed: () {
-            // Handle button press
-          },
+          onPressed: () {},
           child: const Text('Klick mich'),
         ),
       ],
